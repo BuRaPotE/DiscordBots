@@ -35,7 +35,7 @@ def send():
     if r.status_code == 200:
       print('Success Send!')
       check2 = input('Do you need send more? [y/n] \n')
-      if check == y:
+      if check == 'y':
         main()
       else:
         print('Okay! Thanks for using!')
